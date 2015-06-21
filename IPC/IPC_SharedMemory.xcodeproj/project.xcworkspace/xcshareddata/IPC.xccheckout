@@ -14,7 +14,7 @@
 		<string>https://github.com/hulingfeng/IPC.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IPC/IPC.xcodeproj/project.xcworkspace</string>
+	<string>IPC/IPC_SharedMemory.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>88A7DA38F8DD7E2093ACDA977CA208FA9DF8D6E2</key>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "727817241B3698FA0091E972"
-               BuildableName = "IPC"
-               BlueprintName = "IPC"
-               ReferencedContainer = "container:IPC.xcodeproj">
+               BuildableName = "IPC_SharedMemory"
+               BlueprintName = "IPC_SharedMemory"
+               ReferencedContainer = "container:IPC_SharedMemory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "727817241B3698FA0091E972"
-            BuildableName = "IPC"
-            BlueprintName = "IPC"
-            ReferencedContainer = "container:IPC.xcodeproj">
+            BuildableName = "IPC_SharedMemory"
+            BlueprintName = "IPC_SharedMemory"
+            ReferencedContainer = "container:IPC_SharedMemory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "727817241B3698FA0091E972"
-            BuildableName = "IPC"
-            BlueprintName = "IPC"
-            ReferencedContainer = "container:IPC.xcodeproj">
+            BuildableName = "IPC_SharedMemory"
+            BlueprintName = "IPC_SharedMemory"
+            ReferencedContainer = "container:IPC_SharedMemory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "727817241B3698FA0091E972"
-            BuildableName = "IPC"
-            BlueprintName = "IPC"
-            ReferencedContainer = "container:IPC.xcodeproj">
+            BuildableName = "IPC_SharedMemory"
+            BlueprintName = "IPC_SharedMemory"
+            ReferencedContainer = "container:IPC_SharedMemory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

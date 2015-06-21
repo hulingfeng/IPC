@@ -11,19 +11,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		727817231B3698FA0091E972 /* CopyFiles */ = {
+		727817231B3698FA0091E972 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		727817251B3698FA0091E972 /* IPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPC; sourceTree = BUILT_PRODUCTS_DIR; };
+		727817251B3698FA0091E972 /* IPC_SharedMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPC_SharedMemory; sourceTree = BUILT_PRODUCTS_DIR; };
 		727817281B3698FA0091E972 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +42,7 @@
 		7278171C1B3698FA0091E972 = {
 			isa = PBXGroup;
 			children = (
-				727817271B3698FA0091E972 /* IPC */,
+				727817271B3698FA0091E972 /* IPC_SharedMemory */,
 				727817261B3698FA0091E972 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +50,38 @@
 		727817261B3698FA0091E972 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				727817251B3698FA0091E972 /* IPC */,
+				727817251B3698FA0091E972 /* IPC_SharedMemory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		727817271B3698FA0091E972 /* IPC */ = {
+		727817271B3698FA0091E972 /* IPC_SharedMemory */ = {
 			isa = PBXGroup;
 			children = (
 				727817281B3698FA0091E972 /* main.cpp */,
 			);
+			name = IPC_SharedMemory;
 			path = IPC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		727817241B3698FA0091E972 /* IPC */ = {
+		727817241B3698FA0091E972 /* IPC_SharedMemory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7278172C1B3698FA0091E972 /* Build configuration list for PBXNativeTarget "IPC" */;
+			buildConfigurationList = 7278172C1B3698FA0091E972 /* Build configuration list for PBXNativeTarget "IPC_SharedMemory" */;
 			buildPhases = (
 				727817211B3698FA0091E972 /* Sources */,
 				727817221B3698FA0091E972 /* Frameworks */,
-				727817231B3698FA0091E972 /* CopyFiles */,
+				727817231B3698FA0091E972 /* Copy Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IPC;
+			name = IPC_SharedMemory;
 			productName = IPC;
-			productReference = 727817251B3698FA0091E972 /* IPC */;
+			productReference = 727817251B3698FA0091E972 /* IPC_SharedMemory */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 727817201B3698FA0091E972 /* Build configuration list for PBXProject "IPC" */;
+			buildConfigurationList = 727817201B3698FA0091E972 /* Build configuration list for PBXProject "IPC_SharedMemory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				727817241B3698FA0091E972 /* IPC */,
+				727817241B3698FA0091E972 /* IPC_SharedMemory */,
 			);
 		};
 /* End PBXProject section */
@@ -205,21 +207,21 @@
 		7278172D1B3698FA0091E972 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IPC_SharedMemory;
 			};
 			name = Debug;
 		};
 		7278172E1B3698FA0091E972 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IPC_SharedMemory;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		727817201B3698FA0091E972 /* Build configuration list for PBXProject "IPC" */ = {
+		727817201B3698FA0091E972 /* Build configuration list for PBXProject "IPC_SharedMemory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7278172A1B3698FA0091E972 /* Debug */,
@@ -228,13 +230,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7278172C1B3698FA0091E972 /* Build configuration list for PBXNativeTarget "IPC" */ = {
+		7278172C1B3698FA0091E972 /* Build configuration list for PBXNativeTarget "IPC_SharedMemory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7278172D1B3698FA0091E972 /* Debug */,
 				7278172E1B3698FA0091E972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
