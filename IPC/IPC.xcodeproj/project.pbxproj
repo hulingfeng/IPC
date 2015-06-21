@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		727817251B3698FA0091E972 /* IPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IPC; sourceTree = BUILT_PRODUCTS_DIR; };
-		727817281B3698FA0091E972 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		727817281B3698FA0091E972 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
